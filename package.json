@@ -1,0 +1,14 @@
+{
+  "name": "LandscapeSite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spencersa/LandscapeSite",
+  "author": "Samuel Spencer <spencersa715@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
