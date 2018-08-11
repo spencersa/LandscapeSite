@@ -47,11 +47,29 @@ nav {
     background-color: #f5f0e7;
 }
 
-.nav-boarder-bottom {
+.boarder-bottom {
     border-bottom: 5px solid #e6dac3;
 }
 
 .blur {
     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
     filter: blur(5px);
+}
+
+.telephone-span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-color {
+    color: #59752d;
+}
+
+.nav-link{
+    color: #59752d;
+}
+
+.text-center{
+    text-align: center;
 }
