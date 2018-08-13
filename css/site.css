@@ -73,3 +73,8 @@ footer {
   left: 0;
   background-color: #a2bdbe;
 }
+
+.image-thumbnail{
+    width: 7rem;
+    border-radius: 4px;
+}
