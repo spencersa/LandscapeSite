@@ -29,14 +29,14 @@
              </button>
              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item active">
-                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                     <li class="nav-item">
+                         <a class="nav-link" href="index.html">Home</a>
                      </li>
                      <li class="nav-item">
                          <a class="nav-link" href="photos.html">Photos</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="contact.html">Contact</a>
+                         <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                      </li>
                  </ul>
                  <hr>
@@ -57,29 +57,37 @@
     <div class="container">
         
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <h2>Contact Us</h2>
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
         
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
         
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <form class="needs-validation" novalidate method="POST" action="https://formspree.io/riversedgelandscapingwi@gmail.com">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <!--riversedgelandscapingwi@gmail.com"-->
+                <form class="needs-validation" novalidate method="POST" action="https://formspree.io/spencersa715@gmail.com">
                     <div class="form-group">
                         <label for="validationEmail">Email</label>
                         <input id="email" required class="form-control" type="email" name="email" placeholder="Your email">
                         <div class="invalid-feedback">
                           Please provide a valid email.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="validationPhone">Phone Number (Optional)</label>
+                        <input id="phone" class="form-control" type="tel" name="phone" placeholder="Your phone">
+                        <div class="invalid-feedback">
+                          Please provide a phone number.
                         </div>
                     </div>
                     <div class="form-group">
@@ -93,7 +101,7 @@
                     <button class="btn btn-primary" type="submit">Send</button>
                 </form>
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>  
     <hr>   
