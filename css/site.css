@@ -8,7 +8,7 @@ html, body {
 }
 
 header.masthead {
-    background: url('../content/stockPhoto.jpg') no-repeat center center scroll;
+    background: url('../content/headPhoto.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -18,12 +18,11 @@ header.masthead {
 header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 992px) {
     header.masthead > .overlay {
-        padding: 10rem 0;
+        padding: 20rem 0;
     }
 }
 
@@ -51,19 +50,20 @@ nav {
 
 .telephone-span {
     display: block;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .text-color {
     color: #59752d;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .nav-link{
     color: #59752d;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -74,7 +74,23 @@ footer {
   background-color: #a2bdbe;
 }
 
-.image-thumbnail{
-    width: 7rem;
-    border-radius: 4px;
+.row-padding {
+    padding: 10px;
 }
+
+.row-padding-2x {
+    padding: 20px;
+}
+
+.container  .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+
+.logo {
+    width: 140px;
+    height: 120px;
+}
+
+
