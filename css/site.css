@@ -5,6 +5,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: #f5f0e7;
 }
 
 p {
@@ -13,6 +14,10 @@ p {
 
 li {
     font-size: 20px;
+}
+
+.btn{
+    font-size: 20px; 
 }
 
 header.masthead {
@@ -62,10 +67,6 @@ nav {
     font-weight: bold;
 }
 
-.text-font-family {
-    font-family: 'Fjalla One', sans-serif;
-}
-
 .text-color {
     color: #59752d;
     font-family: 'Fjalla One', sans-serif;
@@ -83,7 +84,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #a2bdbe;
+  margin: 0 auto;
 }
 
 .row-padding {
@@ -101,14 +102,15 @@ footer {
 }
 
 .logo {
-    width: 140px;
-    height: 120px;
+    width: 173px;
+    height: 176px;
 }
 
 .hero {
     /* Sizing */
     width: 100vw;
     height: 100vh;
+    max-width:100%;
     
     /* Flexbox stuff */
     display: flex;
@@ -125,29 +127,5 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.hero .btn {
-    /* Positioning and sizing */
-    display: block;
-    width: 200px;
-    
-    /* Padding and margins */
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    /* Text styles */
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    
-    /* Border styles */
-    border: 3px solid white;
-    border-radius: 20px;
-    
-    /* Background styles */
-    background-color: rgba(147, 112, 219, 0.8);
 }
 
